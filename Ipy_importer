@@ -1,3 +1,5 @@
+#这个是在jupyter中不同文件中调用函数的方法
+#使用该方法需要在调用函数中import Ipy_importer
 import io, os,sys,types
 from IPython import get_ipython
 from nbformat import read
